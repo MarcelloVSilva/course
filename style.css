@@ -68,6 +68,12 @@ body {
   color: grey;
 }
 
+.iconContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 4px;
+}
+
 .icon {
   width: 24px;
   height: 24px;
@@ -82,4 +88,8 @@ body {
 
 .clearIcon {
   background: url(./assets/clear.svg);
+}
+
+.redoIcon {
+  background: url(./assets/redo.svg);
 }
