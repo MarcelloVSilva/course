@@ -25,7 +25,7 @@ function readArrayAndInsertNewItem() {
     iconContainer.classList = "iconContainer";
 
     // criando icone handleStatusIcon
-    const handleStatusIcon = document.createElement("img");
+    const handleStatusIcon = document.createElement("div");
     // atribuindo classe à tag img
     if (item.done) {
       handleStatusIcon.classList = "icon redoIcon";
@@ -34,7 +34,7 @@ function readArrayAndInsertNewItem() {
     // adicionando evento de click para resolver tarefa
     handleStatusIcon.addEventListener("click", handleResolvedTask);
     // criando icone clear
-    const clearIcon = document.createElement("img");
+    const clearIcon = document.createElement("div");
     // atribuindo classe à tag img
     clearIcon.classList = "icon clearIcon";
     // adicionando evento de click para resolver tarefa
